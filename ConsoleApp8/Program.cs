@@ -46,7 +46,7 @@ namespace Module1
                 alert1.Accept();
                 var code = (String)js.ExecuteScript("return window.promptResponse");
                 element.SendKeys(code);
-                Console.WriteLine("Code is passed!!");
+                Console.WriteLine("Code is passed!!!");
             }    // this doesn't seem to work 
               //var code = js.ExecuteScript("return window.promptResponse");
               //  IWebElement element = driver.FindElement(By.XPath("//div[@class='FPdoLc tfB0Bf']/center[1]/input[@class='RNmpXc' and 2]"));
